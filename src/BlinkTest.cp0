@@ -23,21 +23,53 @@
 */
 
 #include <Arduino.h>
+#include <HCSR04.h>
 
 // const uint8_t LED_PIN = LED_BUILTIN;
 const uint8_t LED_PIN = 0;
+// const uint8_t MOSFET_GATE_PIN = 9;
+const uint8_t MOSFET_GATE_PIN = 5;
 const uint16_t DELAY = 500;
+int brightness = 0;
+int fadeamount = 5;
+int dimmingDelay = 50;
+int loopDelay;
+
+UltraSonicDistanceSensor distanceSensor(9, 10);  // initialize a sensor on digital pins 13 (trigger) and 12 (echo)
+float distance;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
+#ifdef DEBUG
+  Serial.begin(9600);
+#endif
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_PIN, OUTPUT);
+  pinMode(MOSFET_GATE_PIN, OUTPUT);
+  loopDelay = dimmingDelay;
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(DELAY);                       // wait for a second
-  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(DELAY);                       // wait for a second
+  analogWrite(MOSFET_GATE_PIN, brightness);
+  // brightness = brightness + fadeamount;
+  // if ((brightness <= 0) || (brightness >= 255))
+  //   fadeamount = -fadeamount;
+  delay(loopDelay);
+  distance = distanceSensor.measureDistanceCm();
+  if ((distance < 20.0) && (distance > 0.0)) {
+    brightness = brightness + fadeamount;
+    if ((brightness >= 255) || (brightness <= 0)) {
+      loopDelay = 2000; // "pause" at full on or off
+    }
+    else {
+      loopDelay = dimmingDelay;
+    }
+    if ((brightness <= 0) || (brightness >= 255)) {
+      fadeamount = -fadeamount;
+    }
+  }
+#ifdef DEBUG
+  Serial.println(distance);
+#endif
 }
