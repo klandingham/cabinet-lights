@@ -12,6 +12,5 @@
 platform = atmelavr
 board = nanoatmega328
 framework = arduino
-monitor_port = /dev/ttyUSB0
 lib_deps =
   https://github.com/Martinsos/arduino-lib-hc-sr04

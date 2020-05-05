@@ -21,6 +21,9 @@
 
   http://www.arduino.cc/en/Tutorial/Blink
 */
+#include "CodeSwitch.h"
+
+#ifdef BLINK_TEST
 
 #include <Arduino.h>
 #include <HCSR04.h>
@@ -73,3 +76,4 @@ void loop() {
   Serial.println(distance);
 #endif
 }
+#endif
