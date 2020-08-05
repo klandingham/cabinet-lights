@@ -1,0 +1,141 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Nano Distance Controlled LED Strip Dimmer"
+Date "2020-08-04"
+Rev "0.1"
+Comp ""
+Comment1 "Uses HC-SR04 to control LED strip brightness."
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 3385 4420 0    50   ~ 0
+12V
+Text Notes 3385 4515 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5F2A04E8
+P 3650 4400
+F 0 "J1" H 3555 4535 50  0000 L CNN
+F 1 " " H 3678 4285 50  0000 L CNN
+F 2 "" H 3650 4400 50  0001 C CNN
+F 3 "~" H 3650 4400 50  0001 C CNN
+	1    3650 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L arduino_nano:Arduino_Nano A1
+U 1 1 5F2889BE
+P 5235 3500
+F 0 "A1" H 5260 4837 60  0000 C CNN
+F 1 "Arduino_Nano" H 5260 4731 60  0000 C CNN
+F 2 "" H 5235 3500 60  0000 C CNN
+F 3 "" H 5235 3500 60  0000 C CNN
+	1    5235 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4400 3850 2850
+$Comp
+L Device:LED D1
+U 1 1 5F2B80A2
+P 6760 2395
+F 0 "D1" H 6753 2611 50  0000 C CNN
+F 1 "LED" H 6753 2520 50  0000 C CNN
+F 2 "" H 6760 2395 50  0001 C CNN
+F 3 "~" H 6760 2395 50  0001 C CNN
+	1    6760 2395
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRF40DM229 Q1
+U 1 1 5F2B95AD
+P 7085 3455
+F 0 "Q1" H 7290 3501 50  0000 L CNN
+F 1 "N-CHANNEL MOSFET" H 7290 3410 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_MF" H 7085 3455 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IRF40DM229-DS-v02_00-EN.pdf?fileId=5546d462557e6e890155a15c899160ea" H 7085 3455 50  0001 L CNN
+	1    7085 3455
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7185 3655 7185 4805
+Wire Wire Line
+	7185 4805 6515 4805
+Wire Wire Line
+	4440 4805 4440 4500
+Connection ~ 4440 4500
+Wire Wire Line
+	4440 4500 4585 4500
+Wire Wire Line
+	6245 1835 4340 1835
+Wire Wire Line
+	4340 1835 4340 2850
+Connection ~ 4340 2850
+Wire Wire Line
+	4340 2850 4585 2850
+Wire Wire Line
+	6245 1835 6245 2395
+Wire Wire Line
+	6245 2395 6610 2395
+Wire Wire Line
+	6910 2395 7185 2395
+Wire Wire Line
+	7185 2395 7185 3255
+$Comp
+L Device:R R3
+U 1 1 5F2CBF17
+P 6435 2950
+F 0 "R3" V 6605 2970 50  0000 L CNN
+F 1 "390" V 6520 2915 50  0000 L CNN
+F 2 "" V 6365 2950 50  0001 C CNN
+F 3 "~" H 6435 2950 50  0001 C CNN
+	1    6435 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5935 2950 6285 2950
+Wire Wire Line
+	6585 2950 6885 2950
+Wire Wire Line
+	6885 2950 6885 3455
+Wire Wire Line
+	3850 2850 4340 2850
+Wire Wire Line
+	3850 4500 4440 4500
+$Comp
+L Device:R_POT RV?
+U 1 1 5F2D79C2
+P 6515 3850
+F 0 "RV?" H 6445 3896 50  0000 R CNN
+F 1 "R_POT" H 6445 3805 50  0000 R CNN
+F 2 "" H 6515 3850 50  0001 C CNN
+F 3 "~" H 6515 3850 50  0001 C CNN
+	1    6515 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5935 3850 6365 3850
+Wire Wire Line
+	6515 4000 6515 4805
+Connection ~ 6515 4805
+Wire Wire Line
+	6515 4805 4440 4805
+Wire Wire Line
+	4585 2950 4075 2950
+Wire Wire Line
+	4075 2950 4075 4955
+Wire Wire Line
+	4075 4955 6940 4955
+Wire Wire Line
+	6940 4955 6940 3615
+Wire Wire Line
+	6940 3615 6515 3615
+Wire Wire Line
+	6515 3615 6515 3700
+$EndSCHEMATC

@@ -1,0 +1,49 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduino_nano:Arduino_Nano A?
+U 1 1 5F2889BE
+P 5235 3500
+F 0 "A?" H 5260 4837 60  0000 C CNN
+F 1 "Arduino_Nano" H 5260 4731 60  0000 C CNN
+F 2 "" H 5235 3500 60  0000 C CNN
+F 3 "" H 5235 3500 60  0000 C CNN
+	1    5235 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hc-sr04:HC-SR04 U?
+U 1 1 5F28E00A
+P 2645 3240
+F 0 "U?" H 2603 3677 60  0000 C CNN
+F 1 "HC-SR04" H 2603 3571 60  0000 C CNN
+F 2 "" H 2645 3240 60  0000 C CNN
+F 3 "" H 2645 3240 60  0000 C CNN
+	1    2645 3240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F28E3A6
+P 2745 3920
+F 0 "R?" H 2815 3966 50  0000 L CNN
+F 1 "R" H 2815 3875 50  0000 L CNN
+F 2 "" V 2675 3920 50  0001 C CNN
+F 3 "~" H 2745 3920 50  0001 C CNN
+	1    2745 3920
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
