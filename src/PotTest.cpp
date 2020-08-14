@@ -13,7 +13,8 @@ const int ledPin = 9;  //pin 9 has PWM funtion
 const int potPin = A0; //pin A0 to read analog input
 
 // variables
-int potValue;
+long potValue;
+long mappedValue;
 
 void setup() {
     // pins setup
@@ -25,9 +26,12 @@ void setup() {
 void loop(){
     potValue = analogRead(potPin);          //Read and save analog value from potentiometer
     Serial.print("Pot value = ");
-    potValue = map(potValue, 0, 1023, 0, 255); //Map value 0-1023 to 0-255 (PWM)
+    Serial.print(potValue);
+    mappedValue = map(potValue, 0, 4096, 0, 255); //Map value 0-1023 to 0-255 (PWM)
+    Serial.print("     mapped = ");
+    Serial.println(mappedValue);
     // analogWrite(ledPin, potValue );          //Send PWM value to led
-    delay(100);                          //Small delay
+    delay(1000);                          //Small delay
 }
 
 //  Turns an LED on for one second, then off for one second, repeatedly.

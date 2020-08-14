@@ -5,5 +5,6 @@
 // #define DIST_SENSOR_TEST
 // #define BLINK_TEST
 // #define SERIAL_TEST
-#define POT_TEST
-//#define DIMMER
+// #define POT_TEST
+// #define DIMMER
+#define DIMMER2
