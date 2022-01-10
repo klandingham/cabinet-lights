@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cabinet-lights"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/src"/>
+					<Add directory="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/home/kip/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/home/kip/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/home/kip/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/home/kip/Projects/cabinet-lights/include"/>
+					<Add directory="/home/kip/Projects/cabinet-lights/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs"/>
+					<Add directory="/home/kip/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/src"/>
+					<Add directory="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/home/kip/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/home/kip/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/home/kip/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/home/kip/Projects/cabinet-lights/include"/>
+					<Add directory="/home/kip/Projects/cabinet-lights/src"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/home/kip/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs"/>
+					<Add directory="/home/kip/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/.piopkgmanager.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/applypatch-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/fsmonitor-watchman.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/post-update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/pre-applypatch.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/pre-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/pre-push.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/pre-rebase.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/pre-receive.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/prepare-commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/.git/hooks/update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/examples/simple/simple.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/examples/temperature/temperature.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/hcsr04.jpg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/src/HCSR04.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/HCSR04/src/HCSR04.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/.piopkgmanager.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/applypatch-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/fsmonitor-watchman.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/post-update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/pre-applypatch.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/pre-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/pre-merge-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/pre-push.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/pre-rebase.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/pre-receive.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/prepare-commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.git/hooks/update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/examples/moving_average_print/moving_average_print.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/.pio/libdeps/nanoatmega328/Moving Average Library/src/MovingAverage.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/src/BlinkTest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/src/Dimmer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/src/Dimmer2.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/src/DistanceSensorTest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/src/PotTest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/src/SerialTest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kip/Projects/cabinet-lights/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

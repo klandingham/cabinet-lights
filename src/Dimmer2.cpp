@@ -25,7 +25,7 @@
 const long potPin = A0;                 // gets the potentiometer voltage
 const uint8_t MOSFET_GATE_PIN = 5;      // drives the MOSFET
 const int numDimmingSteps = 15;     // number of discreet dimming steps
-const int maxPotValue = 4096;       // the expected max value read from the pot
+const int maxPotValue = 1023;       // the expected max value read from the pot
 
 long divValue;
 long potValue;
@@ -35,9 +35,6 @@ MovingAverage<long> potAvg(20);
 
 // the setup function runs once when you press reset or power the board
 void setup() {
-#ifdef DEBUG
-  Serial.begin(9600);
-#endif
   pinMode(MOSFET_GATE_PIN, OUTPUT);
   pinMode(potPin, INPUT);
   divValue = maxPotValue / numDimmingSteps;
@@ -60,6 +57,12 @@ void loop() {
 #endif
   analogWrite(MOSFET_GATE_PIN, mappedValue);
   delay(10);
+}
+
+int main() {
+#ifdef DEBUG
+  Serial.begin(9600);
+#endif
 }
 
 #endif // DIMMER2

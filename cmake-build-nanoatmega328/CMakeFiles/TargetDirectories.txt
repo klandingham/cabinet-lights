@@ -1,0 +1,5 @@
+/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/CMakeFiles/rebuild_cache.dir
+/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/CMakeFiles/Production.dir
+/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/CMakeFiles/edit_cache.dir
+/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/CMakeFiles/Debug.dir
+/home/kip/Projects/cabinet-lights/cmake-build-nanoatmega328/CMakeFiles/Z_DUMMY_TARGET.dir
